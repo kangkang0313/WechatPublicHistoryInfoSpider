@@ -1,0 +1,9 @@
+
+
+收获：
+1.json字符串转化为字典用函数eval():dict_object = eval(json_string)
+2.cookie的写法，不能笼统的作为整个string，应该写成一个字典的形式(包含多个键值对)
+3.处理异常的写法要灵活写
+4.将汉字转化为16进制
+from urllib import parse
+object16 = parse.quote('汉字'),parse.unquote(b);unquote()和quote()功能相反。
